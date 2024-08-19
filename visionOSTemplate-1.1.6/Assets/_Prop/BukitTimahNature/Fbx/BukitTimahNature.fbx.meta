@@ -1,0 +1,534 @@
+fileFormatVersion: 2
+guid: a66c3f816664faf48b710a863ab2b45d
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BluePoint
+    second: {fileID: 2100000, guid: 87f816e118cdec64ca42a9a493269ebb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HUT
+    second: {fileID: 2100000, guid: c188685ea5a52f543b45a37568c0ee29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MERAH
+    second: {fileID: 2100000, guid: 3f4dd242ac6052942a6954953878f61a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_04
+    second: {fileID: 2100000, guid: ebe940fb8a8deed4d8d001d2904a7217, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_05
+    second: {fileID: 2100000, guid: 130270d7c0825be409a3235233638809, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_07
+    second: {fileID: 2100000, guid: 91e36fa742d19354c914338868cd461b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_08
+    second: {fileID: 2100000, guid: b7babf7e71e97b449b4384e92d25a228, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_09
+    second: {fileID: 2100000, guid: eca732008945f8c4c90b73ad524492fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_10
+    second: {fileID: 2100000, guid: b93af19978898bd4a8a27c80df35b4b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_11
+    second: {fileID: 2100000, guid: 7750b7e6a82a93948babb494ee958719, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_12
+    second: {fileID: 2100000, guid: dfc3da5c8534bf548b0a0665fbe34cfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_15
+    second: {fileID: 2100000, guid: 08641f7929813c8478d85d16f214b7b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_16
+    second: {fileID: 2100000, guid: 139b710c73db3eb459afc8d6ec8b05cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_17
+    second: {fileID: 2100000, guid: ffb847e7383e6744a89cec79482d0bbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_18
+    second: {fileID: 2100000, guid: ea80a24a2a49211449eafd77ecf1539d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_20
+    second: {fileID: 2100000, guid: 4ed78b8a94f69ca42a842586da5f9aff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_21
+    second: {fileID: 2100000, guid: 5531ca1822edf504fab8ff0d1f25e987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_23
+    second: {fileID: 2100000, guid: a1fe8c8bd285d79448dfc2e162506289, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_24
+    second: {fileID: 2100000, guid: 38a20b1c1e2c60a4a8d0973d372f85ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_26
+    second: {fileID: 2100000, guid: 5d3dcfa2a0fc4dd4bbcda345bb3dbbb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_27
+    second: {fileID: 2100000, guid: ac954f11e2ee69440a87e9190fd8fc0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_29
+    second: {fileID: 2100000, guid: 237468178da64704d928c3334b52e78f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_30
+    second: {fileID: 2100000, guid: b3da632c25a0f4f4c9c275585192acc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_31
+    second: {fileID: 2100000, guid: 864d5d4d4919c72468f549c1a79eccda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_35
+    second: {fileID: 2100000, guid: 788adcaaa63117e4fb30f9686e2b1c1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_36
+    second: {fileID: 2100000, guid: ddd445f8e909afd4fa03a0145319010e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_37
+    second: {fileID: 2100000, guid: e836276fe1fbf1246a908f98c896bd4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_38
+    second: {fileID: 2100000, guid: f752c21434142914cb30dec6f6c5aefa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_40
+    second: {fileID: 2100000, guid: 7a231082ae661874d9f059835d5bb70c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_49
+    second: {fileID: 2100000, guid: 7b0663dafcce86847827c6bcc99f588c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_51
+    second: {fileID: 2100000, guid: 3c0a99156cbbf0f4b8dcf53fcab28354, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_63
+    second: {fileID: 2100000, guid: 81271b1cce0380d4eb0f72ae29794d20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BuildingTower
+    second: {fileID: 2100000, guid: d63e2c49a54c6304cb92597d01f749b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BukitTimahTerrain
+    second: {fileID: 2100000, guid: 6a0e8a0d0f17f5a4f8e040232cf7c496, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Soil01
+    second: {fileID: 2100000, guid: 34ded0e065f724d4a9cde1df488c37b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Water
+    second: {fileID: 2100000, guid: e57cfa706aa604d479e52e2ba88ea384, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PUTIH1
+    second: {fileID: 2100000, guid: 79d410af75c000a48a6eb8c09d3677b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrailsBlue
+    second: {fileID: 2100000, guid: 710b296643b7d54439741246beca1691, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrailsOrange
+    second: {fileID: 2100000, guid: 5ca7e02cf94651248a7a475bd9498741, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrailsPurple
+    second: {fileID: 2100000, guid: e20171fb0dbff074a928222ca4719feb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrailsRED
+    second: {fileID: 2100000, guid: 95a93c4b43f6cbd4083a3c4fa1c14486, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhitePoint
+    second: {fileID: 2100000, guid: 79d410af75c000a48a6eb8c09d3677b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wire
+    second: {fileID: 2100000, guid: 36bd16b28f8a7364bbeb5e08021851e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1
+    second: {fileID: 2100000, guid: 87f816e118cdec64ca42a9a493269ebb, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: BukitTimahNature(Clone)
+      parentName: 
+      position: {x: 0.00002216339, y: 4.029228e-16, z: -0.000007600391}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_007
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_002
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_037
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_031
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_006
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_029
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_028
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_038
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_012
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_005
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_020
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_004
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_003
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_011
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_030
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_034
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_017
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_015
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_027
+      parentName: BukitTimahNature(Clone)
+      position: {x: 0.45715842, y: 0.17765456, z: 0.0042170803}
+      rotation: {x: -0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_001
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.5408494, y: 0.15367967, z: -0.25803864}
+      rotation: {x: -0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_018
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.28309098, y: 0.1600007, z: 0.12362913}
+      rotation: {x: -0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BukitTimah_Soil01
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RadioTower
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BukitTimahTerrain
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 0.000000115674915, z: 0.7100076}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BukitTimahCity
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BluePoint_02
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BluePoint_03
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BukitTimah_109
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BluePoint_04
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Water
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PinPointRed_02
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PinPointRed_01
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HutSummit
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.00002216339, y: 1.2412982e-12, z: 0.000007600391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_009
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.2403783, y: 0.22487551, z: -0.036277097}
+      rotation: {x: -0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_008
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.2580821, y: 0.2086632, z: 0.053836968}
+      rotation: {x: -0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_014
+      parentName: BukitTimahNature(Clone)
+      position: {x: -0.6023773, y: 0.14008102, z: -0.060481302}
+      rotation: {x: -0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_021
+      parentName: BukitTimahNature(Clone)
+      position: {x: 0.27554062, y: 0.24430826, z: 0.08018439}
+      rotation: {x: -0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_025
+      parentName: BukitTimahNature(Clone)
+      position: {x: 0.33347595, y: 0.23226704, z: 0.150352}
+      rotation: {x: -0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_032
+      parentName: BukitTimahNature(Clone)
+      position: {x: 0.6454313, y: 0.15869433, z: 0.34919903}
+      rotation: {x: -0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trails_036
+      parentName: BukitTimahNature(Clone)
+      position: {x: 0.5931524, y: 0.13935056, z: 0.50222486}
+      rotation: {x: -0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

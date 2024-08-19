@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &933094573803079703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1840247541622316675}
+  - component: {fileID: 967234470094397226}
+  - component: {fileID: 7735192950881271279}
+  - component: {fileID: 7283582068867919050}
+  - component: {fileID: 2295216530059486231}
+  m_Layer: 0
+  m_Name: Goal Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1840247541622316675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933094573803079703}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &967234470094397226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933094573803079703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 223e149a35e084deaa34aace206256b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LeftHandPrefab: {fileID: 2367959041761150376, guid: 272dab6c66be8448da11d4d4356a18a7, type: 3}
+  m_RightHandPrefab: {fileID: 2367959041761150376, guid: 35c1d8053047c4b6ab2445f83284d2f7, type: 3}
+  m_FingerTipPrefab: {fileID: 1106866756177256141, guid: 5e6931a4afc884bfb8a9f2900e42b416, type: 3}
+  m_ShowFingerTips: 0
+--- !u!114 &7735192950881271279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933094573803079703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d2ad3359f96894eb8454c9f9f292fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StepList:
+  - StepObject: {fileID: 0}
+    ButtonText: Continue
+    IncludeSkipButton: 1
+  - StepObject: {fileID: 0}
+    ButtonText: Continue
+    IncludeSkipButton: 1
+  - StepObject: {fileID: 0}
+    ButtonText: Continue
+    IncludeSkipButton: 1
+  - StepObject: {fileID: 0}
+    ButtonText: Finish
+    IncludeSkipButton: 0
+  m_StepButtonTextField: {fileID: 0}
+  m_SkipButton: {fileID: 0}
+  m_LearnButton: {fileID: 0}
+  m_LearnModal: {fileID: 0}
+  m_LearnModalButton: {fileID: 0}
+  m_CoachingUIParent: {fileID: 0}
+  m_PassThroughToggle: {fileID: 0}
+  m_GoalPanelLazyFollow: {fileID: 0}
+  m_TapTooltip: {fileID: 0}
+  m_VideoPlayerToggle: {fileID: 0}
+  m_ARPlaneManager: {fileID: 0}
+  m_ObjectSpawner: {fileID: 7283582068867919050}
+--- !u!114 &7283582068867919050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933094573803079703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0713222948be04bdfb8c5a5142dc6b59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CameraToFace: {fileID: 0}
+  m_ObjectPrefabs:
+  - {fileID: 881924126524234396, guid: 4f66f434983c64e31bb17d3cfbe0d2c4, type: 3}
+  - {fileID: 1547086738086726991, guid: c9d593edcbcf64f4f902e4242b8aa353, type: 3}
+  - {fileID: 4673085585169938391, guid: 2358f7e23ad6e44589c53831b8fed17d, type: 3}
+  - {fileID: 5184892276182377350, guid: 531bf84152a5a49a4a10c45566ae8ab3, type: 3}
+  m_SpawnVisualizationPrefab: {fileID: 3853614571566149506, guid: 0aaa6fe909a5447079fa099f074e12ce, type: 3}
+  m_SpawnOptionIndex: -1
+  m_OnlySpawnInView: 1
+  m_CheckPlacementArea: 0
+  m_ViewportPeriphery: 0.15
+  m_DelayTime: 0.5
+  m_OverlapSphereRadius: 0.2
+  m_SpawnAngleRange: 45
+  m_SpawnAsChildren: 1
+--- !u!114 &2295216530059486231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933094573803079703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75f372457d1824a8ebddb6b933e02829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ObjectSelectorDropDown: {fileID: 0}
+  m_DestroyObjectsButton: {fileID: 0}
