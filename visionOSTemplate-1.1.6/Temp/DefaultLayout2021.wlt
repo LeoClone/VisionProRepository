@@ -380,7 +380,7 @@ MonoBehaviour:
   m_LastFolders:
   - Packages/com.unity.learn.iet-framework.authoring
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/leoharnadi/Documents/GitHub/VisionProRepoFX/VisionProRepository/visionOSTemplate-1.1.6
+  m_LastProjectPath: /Users/leoharnadi/Documents/GitHub/VisionProRepoFX/visionOSTemplate-1.1.6
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
