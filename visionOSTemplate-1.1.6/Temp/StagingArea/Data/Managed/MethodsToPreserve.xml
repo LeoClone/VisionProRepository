@@ -1,0 +1,191 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ChromaKeyVideoScript">
+			<method name="TogglePlayPause"/>
+			<method name="TogglePlayPause"/>
+		</type>
+		<type fullname="DetailsNavigationScript">
+			<method name="CloseDetail"/>
+			<method name="CloseDetail"/>
+		</type>
+		<type fullname="JetXR.VisionUI.ViewerToggle">
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+			<method name="ChangeTargetSprite"/>
+		</type>
+		<type fullname="LoginScript">
+			<method name="LogIn"/>
+		</type>
+		<type fullname="NavigationVideoScript">
+			<method name="CloseVideo"/>
+			<method name="OpenVideo"/>
+			<method name="OpenVideo"/>
+		</type>
+		<type fullname="ObjectUIScript">
+			<method name="SetObjectToFollow"/>
+			<method name="SetObjectToFollow"/>
+			<method name="SetObjectToFollow"/>
+			<method name="SetObjectToFollow"/>
+		</type>
+		<type fullname="PolySpatial.Template.GoalManager">
+			<method name="ForceCompleteGoal"/>
+			<method name="ForceEndAllGoals"/>
+			<method name="ResetCoaching"/>
+			<method name="ResetCoaching"/>
+		</type>
+		<type fullname="PolySpatial.Template.LaunchProjectile">
+			<method name="Fire"/>
+			<method name="Fire"/>
+			<method name="Fire"/>
+		</type>
+		<type fullname="PolySpatial.Template.LoadLevelButton">
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+		</type>
+		<type fullname="PolySpatial.Template.PinchAudioFeedback">
+			<method name="PlayAudioPinchEnd"/>
+			<method name="PlayAudioPinchEnd"/>
+			<method name="PlayAudioPinchEnd"/>
+			<method name="PlayAudioPinchEnd"/>
+			<method name="PlayAudioPinchEnd"/>
+			<method name="PlayAudioPinchEnd"/>
+			<method name="PlayAudioPinchEnd"/>
+			<method name="PlayAudioPinchEnd"/>
+			<method name="PlayAudioPinchEnd"/>
+			<method name="PlayAudioPinchEnd"/>
+			<method name="PlayAudioPinchEnd"/>
+			<method name="PlayAudioPinchEnd"/>
+			<method name="PlayAudioPinchEnd"/>
+			<method name="PlayAudioPinchEnd"/>
+			<method name="PlayAudioPinchEnd"/>
+			<method name="PlayAudioPinchStart"/>
+			<method name="PlayAudioPinchStart"/>
+			<method name="PlayAudioPinchStart"/>
+			<method name="PlayAudioPinchStart"/>
+			<method name="PlayAudioPinchStart"/>
+			<method name="PlayAudioPinchStart"/>
+			<method name="PlayAudioPinchStart"/>
+			<method name="PlayAudioPinchStart"/>
+			<method name="PlayAudioPinchStart"/>
+			<method name="PlayAudioPinchStart"/>
+			<method name="PlayAudioPinchStart"/>
+			<method name="PlayAudioPinchStart"/>
+			<method name="PlayAudioPinchStart"/>
+			<method name="PlayAudioPinchStart"/>
+			<method name="PlayAudioPinchStart"/>
+		</type>
+		<type fullname="ReloadScript">
+			<method name="ReloadUI"/>
+		</type>
+		<type fullname="SplineScript">
+			<method name="ToggleAllSplines"/>
+			<method name="ToggleAllSplines"/>
+			<method name="ToggleAllSplines"/>
+		</type>
+		<type fullname="StartScript">
+			<method name="StartIntro"/>
+		</type>
+		<type fullname="TemplateStartScript">
+			<method name="LoadScene"/>
+			<method name="LoadScene"/>
+		</type>
+		<type fullname="TestflightSelectionScript">
+			<method name="BackHome"/>
+			<method name="BackHome"/>
+			<method name="BackHome"/>
+			<method name="BackHome"/>
+			<method name="BackHome"/>
+			<method name="SelectTestflightProject"/>
+			<method name="SelectTestflightProject"/>
+			<method name="SelectTestflightProject"/>
+		</type>
+		<type fullname="VideoButtonControls">
+			<method name="BackwardVideo"/>
+			<method name="BackwardVideo"/>
+			<method name="ChangeVideoSpeed"/>
+			<method name="ChangeVideoSpeed"/>
+			<method name="ChangeVideoSpeed"/>
+			<method name="ChangeVideoSpeed"/>
+			<method name="ChangeVideoSpeed"/>
+			<method name="ChangeVolume"/>
+			<method name="ForwardVideo"/>
+			<method name="TogglePlaybackOptions"/>
+			<method name="ToggleVideo"/>
+		</type>
+	</assembly>
+	<assembly fullname="com.jetxr.visionui" ignoreIfMissing="1">
+		<type fullname="JetXR.VisionUI.WindowsStacker">
+			<method name="CloseWindow"/>
+			<method name="CloseWindow"/>
+			<method name="CloseWindow"/>
+			<method name="CloseWindow"/>
+			<method name="OpenWindowFromPrefab"/>
+			<method name="OpenWindowFromPrefab"/>
+			<method name="OpenWindowFromPrefab"/>
+			<method name="OpenWindowFromPrefab"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField">
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel">
+			<method name="OnScrollbarClicked"/>
+			<method name="OnScrollbarClicked"/>
+			<method name="ResetDebugManager"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.TextMeshPro" ignoreIfMissing="1">
+		<type fullname="TMPro.TMP_InputField">
+			<method name="set_text"/>
+			<method name="set_text"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.UI" ignoreIfMissing="1">
+		<type fullname="UnityEngine.UI.Selectable">
+			<method name="Select"/>
+			<method name="Select"/>
+		</type>
+	</assembly>
+</linker>

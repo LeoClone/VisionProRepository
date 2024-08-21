@@ -8040,3 +8040,281 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 117.772550 seconds.
+  path: Assets/Scenes/Goal Manager.prefab
+  artifactKey: Guid(0061818b21de44dc6a0fbc90533d5453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Goal Manager.prefab using Guid(0061818b21de44dc6a0fbc90533d5453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a32338b784f1082c1e669de6ce248a') in 0.165562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 964
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x1733db000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.614 seconds
+Refreshing native plugins compatible for Editor in 4.23 ms, found 4 plugins.
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FXVisionPro
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.PolySpatial.PolySpatialSettings.LoadPackageVersion () [0x0003c] in ./Library/PackageCache/com.unity.polyspatial@1.1.6/Runtime/Public/PolySpatialSettingsForEditor.cs:188 
+  at Unity.PolySpatial.PolySpatialSettings.InitializeInEditor () [0x00007] in ./Library/PackageCache/com.unity.polyspatial@1.1.6/Runtime/Public/PolySpatialSettingsForEditor.cs:170 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <58ad0307846e4e2aa7b395ea5a7758f5>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <58ad0307846e4e2aa7b395ea5a7758f5>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <58ad0307846e4e2aa7b395ea5a7758f5>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.278 seconds
+Domain Reload Profiling: 1892ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (37ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (332ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (66ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1278ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (431ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (2.3 MB). Loaded Objects now: 7955.
+Memory consumption went from 482.5 MB to 480.2 MB.
+Total: 5.121584 ms (FindLiveObjects: 0.294333 ms CreateObjectMapping: 0.174750 ms MarkObjects: 3.347375 ms  DeleteObjects: 1.304250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (2.3 MB). Loaded Objects now: 7955.
+Memory consumption went from 378.1 MB to 375.8 MB.
+Total: 12.649625 ms (FindLiveObjects: 0.384625 ms CreateObjectMapping: 0.230250 ms MarkObjects: 8.968750 ms  DeleteObjects: 3.065041 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (2.2 MB). Loaded Objects now: 7955.
+Memory consumption went from 375.6 MB to 373.3 MB.
+Total: 11.952708 ms (FindLiveObjects: 0.343833 ms CreateObjectMapping: 0.177541 ms MarkObjects: 9.651667 ms  DeleteObjects: 1.776625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6172.205445 seconds.
+  path: Assets/Resources/Bukit1.jpg
+  artifactKey: Guid(511e0fe6b7dd949fa8a0f62c3652efad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Bukit1.jpg using Guid(511e0fe6b7dd949fa8a0f62c3652efad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d594cd89be01b244e2bb909135d2bf7') in 0.925777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Resources/Bukit3.jpg
+  artifactKey: Guid(7a3fd114d6fa24f6dbc5569f166b2ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Bukit3.jpg using Guid(7a3fd114d6fa24f6dbc5569f166b2ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69437f2051d44ee8fce97cad6c73eef8') in 0.027300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000647 seconds.
+  path: Assets/Resources/Bukit17.jpg
+  artifactKey: Guid(795d8a49347a34b3baea35ac061ead5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Bukit17.jpg using Guid(795d8a49347a34b3baea35ac061ead5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af457a727b609738d5a46abc8d886dd') in 0.029258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Resources/Bukit16.jpg
+  artifactKey: Guid(987cf170c95004a7ba712c7f449ab436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Bukit16.jpg using Guid(987cf170c95004a7ba712c7f449ab436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583533df3ab60b128d48dcfd24e172e0') in 0.011246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/Bukit13.png
+  artifactKey: Guid(9a8988f45b52641b4bfcb05f25a79c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Bukit13.png using Guid(9a8988f45b52641b4bfcb05f25a79c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a406ee3698ac5808f429cb23b082bd') in 0.011561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/Resources/Bukit9.png
+  artifactKey: Guid(314091683f7434b209b96b441ebc59af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Bukit9.png using Guid(314091683f7434b209b96b441ebc59af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcc4f388a25af7148ed3cc924cb3bd8') in 0.027225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Bukit18.jpg
+  artifactKey: Guid(cf0818537dd214b2c8c31e8972ff3244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Bukit18.jpg using Guid(cf0818537dd214b2c8c31e8972ff3244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e275a7d978a76041d622f648a8a1425c') in 0.011059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Resources/Bukit12.png
+  artifactKey: Guid(00e86f1a5cefd4576ba64de952acc5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Bukit12.png using Guid(00e86f1a5cefd4576ba64de952acc5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12c06c5affbb5b4758a24829537cd18') in 0.018845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Resources/Bukit14.png
+  artifactKey: Guid(cdd970bc57e5f4abc99db65ac7fcdc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Bukit14.png using Guid(cdd970bc57e5f4abc99db65ac7fcdc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27505c88cb60e2fd24d5039d9969cda3') in 0.010326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Resources/PolySpatialSettings.asset
+  artifactKey: Guid(043e4d49972171e498119d4049b8b487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PolySpatialSettings.asset using Guid(043e4d49972171e498119d4049b8b487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c9c11a2f705b87243401184830ea4f') in 0.000573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Resources/BukitVideo2.mp4
+  artifactKey: Guid(1502b339c9adc4fd4948eabfa1403165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/BukitVideo2.mp4 using Guid(1502b339c9adc4fd4948eabfa1403165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0588d28df0d2a9f52c264d3775a98a') in 0.002525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Resources/Bukit19.jpg
+  artifactKey: Guid(e68f4046b2a804635a8c1693c6e47500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Bukit19.jpg using Guid(e68f4046b2a804635a8c1693c6e47500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473ddcd0a902c65233cf651c865710c4') in 0.020325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Resources/VolumeCamera_Unbounded.asset
+  artifactKey: Guid(6bbe5ea8b330c4754ab7928a1a1999c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VolumeCamera_Unbounded.asset using Guid(6bbe5ea8b330c4754ab7928a1a1999c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e707317311f4201092387bd10f45f384') in 0.004696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Resources/Bukit2.jpg
+  artifactKey: Guid(2a03659764e1143e99874b1bb31009ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Bukit2.jpg using Guid(2a03659764e1143e99874b1bb31009ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c5feab21afa6dbb8cf47d281f0a9dc') in 0.014600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000629 seconds.
+  path: Assets/Resources/Icon_Play.png
+  artifactKey: Guid(42672fb4e7def41309c3d0d7e83b449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Icon_Play.png using Guid(42672fb4e7def41309c3d0d7e83b449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb910a59e8397231bd8711dff2b566e') in 0.012677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Resources/CatVideo.mp4
+  artifactKey: Guid(085111c31144e4cbf958393e40cd57c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CatVideo.mp4 using Guid(085111c31144e4cbf958393e40cd57c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb08e12e40b831efc118278bdaf1f7a') in 0.000753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
