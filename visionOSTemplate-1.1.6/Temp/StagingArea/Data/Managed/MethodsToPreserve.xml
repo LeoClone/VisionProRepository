@@ -2,7 +2,6 @@
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
 		<type fullname="ChromaKeyVideoScript">
 			<method name="TogglePlayPause"/>
-			<method name="TogglePlayPause"/>
 		</type>
 		<type fullname="DetailsNavigationScript">
 			<method name="CloseDetail"/>
@@ -34,19 +33,10 @@
 			<method name="ChangeTargetSprite"/>
 			<method name="ChangeTargetSprite"/>
 		</type>
-		<type fullname="LoginScript">
-			<method name="LogIn"/>
-		</type>
 		<type fullname="NavigationVideoScript">
 			<method name="CloseVideo"/>
 			<method name="OpenVideo"/>
 			<method name="OpenVideo"/>
-		</type>
-		<type fullname="ObjectUIScript">
-			<method name="SetObjectToFollow"/>
-			<method name="SetObjectToFollow"/>
-			<method name="SetObjectToFollow"/>
-			<method name="SetObjectToFollow"/>
 		</type>
 		<type fullname="PolySpatial.Template.GoalManager">
 			<method name="ForceCompleteGoal"/>

@@ -133,6 +133,7 @@
 	</assembly>
 	<assembly fullname="Unity.PolySpatial">
 		<type fullname="Unity.PolySpatial.PolySpatialSettings" preserve="nothing"/>
+		<type fullname="Unity.PolySpatial.PolySpatialUserSettings" preserve="nothing"/>
 		<type fullname="Unity.PolySpatial.VisionOSGroundingShadow" preserve="nothing"/>
 		<type fullname="Unity.PolySpatial.VisionOSHoverEffect" preserve="nothing"/>
 		<type fullname="Unity.PolySpatial.VisionOSSortingGroup" preserve="nothing"/>
@@ -318,7 +319,6 @@
 		<type fullname="UnityEngine.UI.LayoutElement" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Mask" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.RawImage" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.RectMask2D" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Scrollbar" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.ScrollRect" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Slider" preserve="nothing"/>
