@@ -56,6 +56,18 @@ Video Player
     - VideoProgressBar, script for the progress bar and duration text to work
     - VideoButtonControls, script for pause, rewind, fast forward, volume controls and playback speed
       - Playback speed controls is bugged for VisionOS. We can change the playbackSpeed of the video, but the change is not visible at all in the simulator
-     
-         
+
+Avatar Example:
+- Scene can be accessed in Samples/PolySpatial/Scenes/CharacterWalker
+- In runtime, can be accessed by clicking on Old AVP Sample in the launch scene.
+  - In the scene, click on the arrows until you see "CharacterNavigation", then click Play
+  - Click/Tap on the floor to move the character
+- In the scene, you can see the GameObject "Avatar Test"
+- In order for the avatar to work within the VisionOS Simulator:
+  - The controller is set as StarterAssetsThirdPerson
+  - Avatar is set as FeminineAvatar
+  - Culling mode is set to AlwaysAnimate (VERY IMPORTANT)
+- In this scene, the avatar is custom made using ReadyPlayerMe, to import it into your own project, simply follow the instructions from their page.
+- Their link is this: https://docs.readyplayer.me/ready-player-me/integration-guides/unity/quickstart
+  
   
