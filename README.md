@@ -69,5 +69,16 @@ Avatar Example:
   - Culling mode is set to AlwaysAnimate (VERY IMPORTANT)
 - In this scene, the avatar is custom made using ReadyPlayerMe, to import it into your own project, simply follow the instructions from their page.
 - Their link is this: https://docs.readyplayer.me/ready-player-me/integration-guides/unity/quickstart
-  
-  
+ 
+ChromaKey Example:
+- An example of a chroma key (green screen) video can be seen within the IronManUI scene as well, it is on the left side of the scene
+- The GameObject responsible can be seen in UI > ChromaKey
+- Contains ChromaKeyVideoScript, which is necessary for the video to play
+- Also contains VideoPlayer
+  - Video Clip is set to be the video you want to play
+  - Render Mode has to be Render Texture, necessary
+  - Target Texture is set to VideoRenderTexture, which is a custom render texture with size of 1920x1080, if you want the video to be different size / aspect, it is recommend to change it through the render texture.
+  - Material is set to ChromaKey, which is already set up to remove green screen
+    - DO NOT CHANGE Base Texture, it needs to always be the current VideoRenderTexture (change the base texture if you make a new render texture)
+    - ChromaKey color can be adjusted to remove other colors/shades
+    - Hue Range and Fuzziness can also be adjusted accordingly
